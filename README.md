@@ -16,14 +16,19 @@ format for functional test specs:
 - when a user clicks 'log in' and has filled in their login credentials correctly they should be taken to the dashboard
 
 
+
 //PROMPTS// and //RESPONSES//
 
+
 Unit Tests
+
 1. A function called 'multiplication' that returns the product of the two input numbers
    - expect multiplication(num1, num2) to multiply num1 and num2 and return the product
    - expect multiplication(num1, num2) to return an integer
    - expect num1 and num2 to be integer parameters
    - expect any parameter other than an integer to cause an error
+  
+     
 2. A function called 'concatOdds' takes two arrays of integers as arguments. it should return a single array that only contains the odd numbers, in ascending order, from both arrays.
    - example: concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) should result in [-1, 1, 3, 9, 15]
   
@@ -33,7 +38,9 @@ Unit Tests
    - expect concatOdds([array1], [array2]) to ignore multiple instances of the same odd number
   
 
+
 Functional Tests
+
 1. A shopping cart checkout feature that allows a user to check out as a guest (without an account), or as a logged-in user. They should be allowed to do either, but should be asked if they want to create an account or log in if they check out as a guest.
    - when a user clicks 'check out' and the cart is empty, they should receive an error that the cart is still empty
    - when a user has items in their cart and click 'check out', they should be prompted with two options, 'log in' or 'continue as guest'
