@@ -26,6 +26,7 @@ Unit Tests
    - expect multiplication(num1, num2) to multiply num1 and num2 and return the product
    - expect multiplication(num1, num2) to return an integer
    - expect num1 and num2 to be integer parameters
+   - expect input integers and result to be positive or negative
    - expect any parameter other than an integer to cause an error
   
      
